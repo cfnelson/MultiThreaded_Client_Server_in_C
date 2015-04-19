@@ -5,7 +5,7 @@ This system is comprised of:
 * A multi-threaded Server.
 * A single-threaded Client Process. 
 
-This project was an assignment for my Systems Programming course at University. 
+This project was an assignment for my Systems Programming subject at University. 
 
 ##NOTE:
 Readme is currently incomplete, and is to be updated soon.
