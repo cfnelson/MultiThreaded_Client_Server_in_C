@@ -38,16 +38,16 @@
 
 	void createMutex( Mutex* m_mutex )										//- Creates and Initialising the Mutex 
 	{
-		int rCodeM = pthread_mutex_init( &( m_mutex->mutex ), NULL );		//- Initilaising the mutex 
-		int rCodeC = pthread_cond_init(  &( m_mutex->condition ), NULL );	//- Initialising the condition variable
+		int rCodeM = pthread_mutex_init( &( m_mutex->mutex ), NULL );						//- Initilaising the mutex 
+		int rCodeC = pthread_cond_init(  &( m_mutex->condition ), NULL );					//- Initialising the condition variable
 	}
 
 	void destroyMutex( Mutex* m_mutex )										//- Destroys the struct Mutex's mutex and condition var
 	{
-		pthread_mutex_destroy( &( m_mutex->mutex ) );						//-Destroys the mutex
-		pthread_cond_destroy( &( m_mutex->condition ) );					//-Destroys the condition variable
+		pthread_mutex_destroy( &( m_mutex->mutex ) );								//-Destroys the mutex
+		pthread_cond_destroy( &( m_mutex->condition ) );							//-Destroys the condition variable
 	}
-#endif																		//- END OF MUTEX CLASS SECTION
+#endif															//- END OF MUTEX CLASS SECTION
 	
 ///////////////////////////////////////////////////////////////////////////////////
 // END OF FILE
