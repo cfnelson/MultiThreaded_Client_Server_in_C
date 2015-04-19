@@ -8,6 +8,7 @@ This system is comprised of:
 This project was an assignment for my Systems Programming course at University. 
 
 ##NOTE:
-Readme is currently incomplete, to be updated. 
-TODO:- Complete a more detailed description for the ReadMe File. 
+Readme is currently incomplete, and is to be updated soon.
+
+TODO:- Provide a more detailed description of the project and instructions to run the program. 
 
