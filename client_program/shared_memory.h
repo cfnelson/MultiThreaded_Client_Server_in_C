@@ -8,14 +8,14 @@
 #define	SH_MEM_READY		-1
 #define	SH_MEM_NOT_READY	-2
 
-#define BUSY				1
-#define NOT_BUSY			0
+#define BUSY			1
+#define NOT_BUSY		0
 
-#define NUM_FILLED			1
-#define NUM_EMPTY			0
+#define NUM_FILLED		1
+#define NUM_EMPTY		0
 
-#define SHUTDOWN			1
-#define RUNNING				0
+#define SHUTDOWN		1
+#define RUNNING			0
 
 //Both are initially 0 meaning that there is no new data available
 //A client can only write data to ‘number’ for the server while clientflag == 0; the client must set clientflag = 1 to indicate to the server that new data is available for it to read
@@ -33,7 +33,7 @@ struct sharedMemory
 	double cqr_Progress[10];				//- informs the client how each Query is progressing e.g - clientQueryResponse
 	
 	unsigned long number;					//- stores the user's 32bit int that is to be factorised
-    unsigned long clientQueryResponse[10];	//- stores the clients quieres
+    	unsigned long clientQueryResponse[10];			//- stores the clients quieres
 };
 
 ///////////////////////////////////////////////////////////////////////////////////
